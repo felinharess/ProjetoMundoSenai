@@ -5,7 +5,6 @@ let num = Number
 
 //Sorteador
 let numSorteado = Math.floor(Math.random() * 100)
-console.log(numSorteado)
 
 //contador
 for (let i = 0; i < 100; i++) {
