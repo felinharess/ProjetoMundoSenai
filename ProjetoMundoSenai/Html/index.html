@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>Mega Senai</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="titulo">
+            <img src="../img/TrevoDaSorte.png" width="35px" height="35px">
+            <h1 class="title">Mega Senai!</h1>
+            <img src="../img/TrevoDaSorte.png" width="35px" height="35px">
+        </div>
+    </header>   
+    <main class="tudo">
+        <section>
+            
+                <article>
+                    <form id="inputForm" class="interacao">
+                        <input autocomplete="off" type="text" id="nameInput" placeholder="Nome" required>
+                        <input type="number" id="valueInput" placeholder="Número" required>
+                        <button class="add" type="submit">Cadastrar</button>
+                        <div id="itemsList"></div>
+                    </form>
+                    <h1 id = "error"></h1>
+                </article>
+                <article class="butao">
+                    <button class="btn" onclick="ganhador()">Vencedor</button>
+                </article>
+             <h1 class="h1">Ganhador(a):</h1>
+            <article class="quadroVencedor">
+                <h1 class="vencedor" id="vencedor"></h1>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2>Mundo senai - Feito por:</h2>
+        <p>ADS 1° fase &copf;</p>
+    </footer>
+</body>
+
+</html>
