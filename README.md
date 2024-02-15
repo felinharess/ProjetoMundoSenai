@@ -1,7 +1,7 @@
 
 # Mega-Senai 2023
 
-Bem-vindo ao Mega-Senai! Este é um projeto desenvolvido para realizar sorteio, no qual algumas pessoas se cadastram e no fim verificam se venceram o sorteio.Aqui está como funciona:
+Bem-vindo ao Mega-Senai! Este é um projeto desenvolvido para realizar sorteio, no qual algumas pessoas se cadastram e no fim verificam se venceram o sorteio. Aqui está como funciona:
 
 ### Cadastro de nomes:
 Para participar do sorteio, você precisa cadastrar seu nome usando o formulário criado no Html que esta linkado ao Javascript. Para se cadastrar basta preencher o campo com seu nome e escolher o numero desejado que esteja entre 0 e 99, e então clique em "Cadastrar". Os nomes e os numeros cadastrados serão armazenados em um array.
